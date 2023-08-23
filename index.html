@@ -1,24 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-		<link rel="modulepreload" href="./_app/immutable/entry/start.fda821c9.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.46ea89e8.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths.a36d3d5f.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.5410f499.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.0719bd3d.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.a4d6fcb2.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.b8c0d80a.js">
-  </head>
-  <body>
-    <div>  <h1 data-svelte-h="svelte-1bj4n12">sveltekit-gh-pages</h1> <p data-svelte-h="svelte-lmr5fu">Deployed to GitHub Pages</p> <p data-svelte-h="svelte-1vc1ga9">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> <a href="/about" data-svelte-h="svelte-2hnrj4">About</a> 
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.be8546bd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.6dba6488.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.b33233ef.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.0523f208.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.6e67e459.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.e2e5b069.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<h1>Welcome to SvelteKit + GitHub Pages</h1>
+
+<p>It is super easy to publish SvelteKit project on GitHub Pages. Create a GitHub repo before starting this.
+</p>
+
+<ul><li>Install SvelteKit
+  </li>
+  <li>Install @sveltejs/adapter-static and gh-pages. `npm i -D @sveltejs/adapter-static gh-pages`
+  </li>
+  <li>Update svelte.config.js by changing adapter-auto to adaptor-static.
+   `import adapter from &#39;@sveltejs/adapter-static&#39;;`
+  </li>
+  <li>Add the following to `src/routes/+layout.js`
+    `export const prerender = true;`
+  </li>
+  <li>Add a script to package.json. `&quot;gh-pages&quot;: &quot;npm run build &amp;&amp; npx gh-pages -d build&quot;`
+  </li>
+  <li>If you are using a postcss such as Tailwind css, you need to add an empty .nojekyll file to the gh-pages branch.
+  </li></ul>
+
+<p>Now you just need to run `npm run gh-pages`.
+</p>
+
+
 			
 			<script>
 				{
-					__sveltekit_6c78gr = {
+					__sveltekit_2grj6c = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -28,8 +53,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.fda821c9.js"),
-						import("./_app/immutable/entry/app.5410f499.js")
+						import("./_app/immutable/entry/start.be8546bd.js"),
+						import("./_app/immutable/entry/app.0523f208.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
@@ -41,5 +66,5 @@
 				}
 			</script>
 		</div>
-  </body>
+	</body>
 </html>
