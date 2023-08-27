@@ -113,7 +113,7 @@
 
 				<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/shweta">
 					<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-						<img src="/images/xyz.jpg" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
+						<img src="/images/xyz.jpg" alt="Shweta Srivastav" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
 					</div>
 					<div class="absolute bottom-0 w-full p-4 tracking-wide h-[110px] group-hover:h-auto">
 						<span class="text-4xl font-bold italic">Shweta <span class="block">Srivastav</span></span>
@@ -133,7 +133,7 @@
 
 				<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/raquel">
 					<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-						<img src="/images/xyz.jpg" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
+						<img src="/images/xyz.jpg" alt="Raquel" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
 					</div>
 					<div class="absolute bottom-0 w-full p-4 tracking-wide h-[110px] group-hover:h-auto">
 						<span class="text-4xl font-bold italic">Raquel <span class="block">LastName</span></span>
