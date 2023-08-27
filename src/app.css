@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,14 +17,97 @@
 #315D93, #817c52, #dacfc3, #fca806, #f27984
 */
 
-@font-face {
-	font-family: 'Abril Fatface';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-dmjcDidBc.woff2) format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+html { margin-right: calc(100vw - 100%); }
+
+html::-webkit-scrollbar {
+    width: 6px;
 }
+
+html::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(252, 168, 6, 1) 0%, rgba(242, 121, 132, 1) 100%);
+}
+
+html::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0px 0px 0px 100vh #e9e9e1;
+	border-radius: 44px;
+}
+
+:root {
+	font-size: 16px;
+	font-family: 'Playfair Display', serif;
+	--color-text: #000;
+	--color-bg: #e9e9e1;
+	--color-link: #f27984;
+	--color-link-hover: #fca806;
+	--page-padding: 1rem;
+	--columns: 15;
+	--cursor-blend-mode: difference;
+	--cursor-radius: 0;
+}
+
+nav, footer, .worksans {
+	font-family: 'Work Sans';
+}
+
+/* START: FX header */
+.home-fx {
+	--cursor-bg: #901ee9;
+	--gradient-text-1: #000;
+	--gradient-text-2: rgb(94 85 147);
+	--cursor-radius: 50%;
+	--cursor-blend-mode: color-burn;
+}
+
+.home-fx:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-image: url("/images/bg7.jpg");
+	opacity: 0.44;
+}
+
+.cursor {
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	z-index: 99;
+	mix-blend-mode: var(--cursor-blend-mode);
+	--size: calc(100vw / var(--columns));
+}
+
+.cursor__inner {
+	display: grid;
+	grid-template-columns: repeat(var(--columns), var(--size));
+}
+
+.cursor__inner-box {
+	width: var(--size);
+	height: var(--size);
+	background: var(--cursor-bg);
+	opacity: 0;
+	border-radius: var(--cursor-radius);
+}
+
+@media screen and (min-width: 53em) {
+	:root {
+		--columns: 30;
+		--page-padding: 2rem;
+	}
+	.frame {
+		grid-template-columns: auto auto auto 1fr;
+		grid-template-areas: 'title prev sponsor demos';
+		justify-items: start;
+		grid-gap: 2rem;
+	}
+}
+/* END: FX header */
 
 @font-face {
 	font-family: 'Work Sans';
@@ -37,38 +122,43 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9, .is-abril {
 	font-family: Abril Fatface;
 }
 
-.app {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	font-family: 'Work Sans';
-}
-
-main {
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	padding: 1rem;
-	width: 100%;
-	max-width: 64rem;
-	margin: 0 auto;
+*,
+*::after,
+*::before {
 	box-sizing: border-box;
 }
 
-footer {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 12px;
+/* Page Loader */
+.loading::before,
+.loading::after {
+	content: '';
+	position: fixed;
+	z-index: 1000;
 }
 
-footer a {
-	font-weight: bold;
+.loading::before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--color-bg);
 }
 
-@media (min-width: 480px) {
-	footer {
-		padding: 12px 0;
+.loading::after {
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 60px;
+	margin: -30px 0 0 -30px;
+	border-radius: 50%;
+	opacity: 0.4;
+	background: var(--color-link-hover);
+	animation: loaderAnim 0.7s linear infinite alternate forwards;
+}
+
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
 	}
 }
