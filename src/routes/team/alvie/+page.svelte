@@ -28,8 +28,11 @@
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
 				<p class="mb-4 lg:mb-6">"In order to do anything, you must first see"- Alvie</p>
+				<p class="mb-4 lg:mb-6">
+					Alvie is a business professional with extensive international corporate experience. She is creative, adaptable, and efficient and has worked in several different industries in Australia, Europe, and North America. Her experience has her working with leadership to help identify or expand on vision, enhance, and build on existing strengths, and build cohesive teams.
+				</p>
 				<p>
-					I help clients discern values, resources, and challenges helping them navigate their business journey.
+					The diversity in her experience has allowed her to adapt to different situations, cultures, and industries.
 				</p>
 			</PersonDescription>
 
