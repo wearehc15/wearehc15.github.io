@@ -13,4 +13,7 @@
 		<span class="text-2xl font-bold italic">{ name }</span>
 		<span class="block text-base italic">{ intro }</span>
 	</div>
+	<div class="absolute top-4 right-4 w-11 h-11 rounded-full bg-[#817c52] text-center leading-[44px] opacity-0 group-hover:opacity-100 text-white shadow-md">
+		<i class="fa-light fa-link text-lg"></i>
+	</div>
 </a>

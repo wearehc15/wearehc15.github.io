@@ -16,12 +16,15 @@
 			Skills & Expertise
 		</h1>
 
-		<ul class="flex gap-4 flex-wrap my-6 md:my-12 lg:my-16 worksans justify-center">
+		<ul class="flex gap-4 flex-wrap mt-6 md:mt-12 lg:mt-16 worksans justify-center">
 			{#each skills as skill}
 				<li class="py-2 px-4 bg-[#a59f78] rounded-md">
 					{ skill }
 				</li>
 			{/each}
 		</ul>
+		<div class="worksans text-sm text-center mt-6 md:mt-12 lg:mt-16">
+			<a href="/alliance#theteam" class="block !text-white worksans"><i class="fa-light fa-arrow-left mr-2"></i>View the team</a>
+		</div>
 	</div>
 </article>
