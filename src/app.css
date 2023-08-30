@@ -17,34 +17,65 @@
 #315D93, #817c52, #dacfc3, #fca806, #f27984
 */
 
-html { margin-right: calc(100vw - 100%); }
+@layer base {
+	html { margin-right: calc(100vw - 100%); }
 
-html::-webkit-scrollbar {
-    width: 6px;
+	html::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	html::-webkit-scrollbar-track {
+		background: linear-gradient(0deg, rgba(252, 168, 6, 1) 0%, rgba(242, 121, 132, 1) 100%);
+	}
+
+	html::-webkit-scrollbar-thumb {
+		background: transparent;
+		box-shadow: 0px 0px 0px 100vh #e9e9e1;
+		border-radius: 44px;
+	}
+
+	:root {
+		font-size: 16px;
+		font-family: 'Playfair Display', serif;
+		--color-text: #000;
+		--color-bg: #e9e9e1;
+		--color-link: #f27984;
+		--color-link-hover: #fca806;
+		--page-padding: 1rem;
+		--columns: 15;
+		--cursor-blend-mode: difference;
+		--cursor-radius: 0;
+	}
+
+	@font-face {
+		font-family: 'Work Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url(https://fonts.gstatic.com/s/worksans/v18/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2) format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+	h1, h2, h3, h4, h5, h6, h7, h8, h9, .is-abril {
+		font-family: Abril Fatface;
+	}
+
+	.content a {
+		@apply text-[#817c52] ;
+	}
+
+	.content a:hover {
+		@apply underline underline-offset-8 decoration-dotted;
+
+	}
+
+	*,
+	*::after,
+	*::before {
+		box-sizing: border-box;
+	}
 }
 
-html::-webkit-scrollbar-track {
-    background: linear-gradient(0deg, rgba(252, 168, 6, 1) 0%, rgba(242, 121, 132, 1) 100%);
-}
-
-html::-webkit-scrollbar-thumb {
-    background: transparent;
-    box-shadow: 0px 0px 0px 100vh #e9e9e1;
-	border-radius: 44px;
-}
-
-:root {
-	font-size: 16px;
-	font-family: 'Playfair Display', serif;
-	--color-text: #000;
-	--color-bg: #e9e9e1;
-	--color-link: #f27984;
-	--color-link-hover: #fca806;
-	--page-padding: 1rem;
-	--columns: 15;
-	--cursor-blend-mode: difference;
-	--cursor-radius: 0;
-}
 
 nav, footer, .worksans {
 	font-family: 'Work Sans';
@@ -109,25 +140,6 @@ nav, footer, .worksans {
 }
 /* END: FX header */
 
-@font-face {
-	font-family: 'Work Sans';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url(https://fonts.gstatic.com/s/worksans/v18/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2) format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-h1, h2, h3, h4, h5, h6, h7, h8, h9, .is-abril {
-	font-family: Abril Fatface;
-}
-
-*,
-*::after,
-*::before {
-	box-sizing: border-box;
-}
-
 /* Page Loader */
 .loading::before,
 .loading::after {
@@ -162,3 +174,29 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9, .is-abril {
 		transform: scale3d(0.5,0.5,1);
 	}
 }
+
+@layer components {
+	.button {
+		@apply inline-block px-4 py-3 md:px-6 bg-gradient-to-r from-cyan-950 to-cyan-800 rounded-full !text-white hover:bg-gradient-to-r hover:from-orange-950 hover:to-emerald-800 worksans uppercase tracking-wide;
+	}
+
+	.menunav--hidden .menunav__target {
+		@apply invisible w-0 h-0 lg:visible lg:w-auto lg:h-auto;
+	}
+
+	.menunav--hidden .fa-xmark {
+		@apply invisible w-0 h-0;
+	}
+
+	.menunav--expanded .menunav__target {
+		@apply visible w-full absolute top-[60px] left-0 lg:block lg:w-auto lg:relative;
+	}
+
+	.menunav--expanded .menunav__target > a {
+		@apply block;
+	}
+
+	.menunav--expanded .fa-bars {
+		@apply invisible w-0 h-0;
+	}
+};

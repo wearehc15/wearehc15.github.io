@@ -14,7 +14,7 @@
         <div class="px-4 md:text-center">
           <h1 class="text-6xl md:text-7xl lg:text-9xl tracking-wide text-cyan-950 mb-4">HC15 Alliance</h1>
           <p class="md:text-3xl lg:text-4xl text-slate-600 italic font-medium">We are HC15 - a collaborative alliance of entrepreneurs</p>
-          <p class="my-4 md:py-6 lg:my-9"><a href="/co-creation" class="p-4 md:px-6 bg-gradient-to-r from-cyan-950 to-cyan-800 rounded-full text-white hover:bg-gradient-to-r hover:from-orange-950 hover:to-emerald-800 worksans uppercase tracking-wide">Learn more</a></p>
+          <p class="my-4 md:py-6 lg:my-9"><a href="/co-creation" class="button">Learn more</a></p>
         </div>
       </div>
 
