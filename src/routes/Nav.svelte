@@ -1,4 +1,9 @@
 <script>
+	import { page } from '$app/stores';
+	let path;
+
+	$: path = $page.url.pathname;
+
 	const hideMenu = (target) => {
 		target?.classList.add('menunav--hidden');
 		target?.classList.remove('menunav--expanded');
@@ -26,9 +31,9 @@
 				<i class="fa-sharp fa-regular fa-house-heart text-lg"></i>
 			</a>
 			<div class="bg-[#e9e9e1] lg:inline-block menunav__target">
-				<a on:click="{ () => closeMenu() }" href="/why" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0">Our Why</a>
-				<a on:click="{ () => closeMenu() }" href="/alliance" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0">Our Alliance</a>
-				<a on:click="{ () => closeMenu() }" href="/co-creation" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0">Co-creation</a>
+				<a on:click="{ () => closeMenu() }" class={path === '/why' ? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-white after:left-0 after:-bottom-3.5 text-[#817c52]' : 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0'} href="/why">Our Why</a>
+				<a on:click="{ () => closeMenu() }" class={path === '/alliance' ? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-white after:left-0 after:-bottom-3.5 text-[#817c52]' : 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0'} href="/alliance">Our Alliance</a>
+				<a on:click="{ () => closeMenu() }" class={path === '/co-creation' ? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-white after:left-0 after:-bottom-3.5 text-[#817c52]' : 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0'} href="/co-creation">Co-creation</a>
 			</div>
 			<button class="lg:hidden w-11 h-11 inline-block leading-[46px] text-center rounded-full bg-[#d6d6c2] float-right" on:click="{ () => handleClick() }">
 				<i class="fa-light fa-bars text-lg block mx-auto"></i>

@@ -1,6 +1,6 @@
 <article class="py-14 md:py-16 lg:py-24">
 	<div class="max-w-4xl mx-auto px-4">
-		<h1 class="md:text-center text-6xl md:text-7xl lg:text-9xl tracking-wide text-cyan-950 mt-9 mb-4 lg:mt-16 lg:mb-11">Our Why</h1>
+		<h1 class="md:text-center text-6xl md:text-7xl lg:text-9xl tracking-wide text-cyan-950 mt-9 mb-4 lg:mt-16 lg:mb-11">Our <span class="italic text-[#fca806] -ml-9">Why</span></h1>
 		<p class="md:text-center lg:text-xl text-slate-500 worksans uppercase tracking-wider">
 			We're stronger together
 		</p>
