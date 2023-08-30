@@ -48,7 +48,10 @@
 			'Speaks: English',
 			'Value proposition development',
 			'People management',
-			'Organisational development'
+			'Organisational development',
+			'Self-awareness and personal development',
+			'Facilitator',
+			'Vision navigation'
 		]
 	}
 	/>
