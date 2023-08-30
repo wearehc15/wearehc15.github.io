@@ -3,7 +3,9 @@
   import HomeFx from '../extjs/homefx.js';
 
   onMount(() => {
-    HomeFx();
+    if (location.pathname === '/') {
+      HomeFx();
+    }
   });
 </script>
 

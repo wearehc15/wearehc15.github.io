@@ -61,7 +61,7 @@ export default function() {
 			// ttl from data attr
 			this.settings.ttl = this.DOM.el.getAttribute('data-ttl') || this.settings.ttl;
 
-			// // Calculate how many cells to insert into the .cursor__inner element:
+			// Calculate how many cells to insert into the .cursor__inner element:
 			this.layout();
 
 			// Initialize/Bind some events
@@ -72,28 +72,28 @@ export default function() {
 		 * Initialize/bind events
 		 */
 		initEvents() {
+			// Recalculate and create the .cursor__inner-box elements on 'resize'
+			window.addEventListener('resize', () => this.layout());
 
-        // Recalculate and create the .cursor__inner-box elements on 'resize'
-        window.addEventListener('resize', () => this.layout());
 
-        // Show/hide cells on 'mousemove' or 'pointermove' events
-        const handleMove = () => {
-			// Check which cell is being "hovered"
-			const cell = this.getCellAtCursor();
+			// Show/hide cells on 'mousemove' or 'pointermove' events
+			const handleMove = () => {
+				// Check which cell is being "hovered"
+				const cell = this.getCellAtCursor();
 
-			if (cell === null || this.cachedCell === cell) return;
-			// Cache it
-			this.cachedCell = cell;
-			// Set opacity to 1
-			gsap.set(cell, { opacity: 1 });
-			// Set it back to 0 after a certain delay
-			gsap.set(cell, { opacity: 0, delay: this.settings.ttl });
-			// gsap.to(cell, { duration: 0.3, ease: 'expo', opacity: 0, delay: this.settings.ttl });
-        }
+				if (cell === null || this.cachedCell === cell) return;
+				// Cache it
+				this.cachedCell = cell;
+				// Set opacity to 1
+				gsap.set(cell, { opacity: 1 });
+				// Set it back to 0 after a certain delay
+				gsap.set(cell, { opacity: 0, delay: this.settings.ttl });
+				// gsap.to(cell, { duration: 0.3, ease: 'expo', opacity: 0, delay: this.settings.ttl });
+			}
 
-        window.addEventListener('mousemove', handleMove);
-        window.addEventListener('pointermove', handleMove, { passive: true });
-    }
+			window.addEventListener('mousemove', handleMove);
+			window.addEventListener('pointermove', handleMove, { passive: true });
+		}
 
 		/**
 		 * Calculate and create the .cursor__inner-box elements.
@@ -139,7 +139,7 @@ export default function() {
 			const cellIndex = rowIndex * this.columns + columnIndex;
 
 			if ( cellIndex >= this.cellsTotal || cellIndex < 0 ) {
-				console.error('Cell index out of bounds');
+				console.error('Cell index out of bounds x');
 				return null;
 			}
 			return this.DOM.cells[cellIndex];
