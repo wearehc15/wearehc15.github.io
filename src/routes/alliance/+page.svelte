@@ -1,3 +1,7 @@
+<script>
+	import Person from '../Person.svelte';
+</script>
+
 <article class="py-14 md:py-16 lg:py-24">
 	<div class="max-w-4xl mx-auto px-4">
 		<h1 class="md:text-center text-6xl md:text-7xl lg:text-9xl tracking-wide text-cyan-950 mt-9 mb-4 lg:mt-16 lg:mb-11">Our Alliance</h1>
@@ -20,135 +24,31 @@
 		</p>
 
 		<div class="flex gap-4 lg:gap-6 flex-wrap my-6 md:my-12 lg:my-16">
-			<a class="group block relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/alvie">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/alvie.jpg" alt="Alvie Bayalo"  class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Alvie Balayo</span>
-					<span class="block text-base italic">Expand & align your vision</span>
-				</div>
-			</a>
+			<Person name="Alvie Balayo" intro="Vision Navigator & Consultant" image_url="/images/alvie.jpg" person_url="/team/alvie" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/ivana">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/ivana.jpg"  alt="Ivana Setiawan"class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Ivana Setiawan</span>
-					<span class="block text-base italic">Founder Venopi & Software Engineer</span>
-				</div>
-			</a>
+			<Person name="Ivana Setiawan" intro="Founder & Software Engineer" image_url="/images/ivana.jpg" person_url="/team/ivana" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/jana">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/jana.jpg" alt="Jana Sieling" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Jana Sieling</span>
-					<span class="block text-base italic">Principal Financial Services</span>
-				</div>
-			</a>
+			<Person name="Jana Sieling" intro="Financial Consultant" image_url="/images/jana.jpg" person_url="/team/jana" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/justyna">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/justyna.jpg"  alt="Justyna Kawa" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Justyna Kawa</span>
-					<span class="block text-base italic">Fashion Strategist & Brand Creator</span>
-				</div>
-			</a>
+			<Person name="Justyna Kawa" intro="Fashion Strategist & Brand Creator" image_url="/images/justyna.jpg" person_url="/team/justyna" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/alvie">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/kasia.jpg" alt="Katarzyna Bazylczyk" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Katarzyna Bazylczyk</span>
-					<span class="block text-base italic">Lead Product Designer</span>
-				</div>
-			</a>
+			<Person name="Katarzyna Bazylczyk" intro="Lead Product Designer" image_url="/images/kasia.jpg" person_url="/team/katarzyna" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/madelin">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/madelin.jpg" alt="Madelin Winkler"  class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide text-white">
-					<span class="text-2xl font-bold italic">Madelin Winkler</span>
-					<span class="block text-base italic">Digital Nomad - SEO & PR</span>
-				</div>
-			</a>
+			<Person name="Madelin Winkler" intro="Digital Nomad - SEO & PR" image_url="/images/madelin.jpg" person_url="/team/madelin" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/alvie">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/rita.jpg" alt="Rita Januário"  class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Rita Januário</span>
-					<span class="block text-base italic">COO at Buildtoo</span>
-				</div>
-			</a>
+			<Person name="Rita Januário" intro="Innovation Manager" image_url="/images/rita.jpg" person_url="/team/rita" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/savvoula">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/savvoula.jpg" alt="Savvoula Oikonomou" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Savvoula Oikonomou</span>
-					<span class="block text-base italic">Institutional Fundraising & Consulting</span>
-				</div>
-			</a>
+			<Person name="Savvoula Oikonomou" intro="Institutional Fundraising & Consulting" image_url="/images/savvoula.jpg" person_url="/team/savvoula" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/shan">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/shan.jpg" alt="Shan Luolin" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Shan Luolin</span>
-					<span class="block text-base italic">Managing Director at East by North Oy</span>
-				</div>
-			</a>
+			<Person name="Shan Luolin" intro="Managing Director at East by North Oy" image_url="/images/shan.jpg" person_url="/team/shan" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/shweta">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/xyz.jpg" alt="Shweta Srivastav" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Shweta Srivastav</span>
-					<span class="block text-base italic">Design Research for regeneration</span>
-				</div>
-			</a>
+			<Person name="Shweta Srivastav" intro="Design Research for regeneration" image_url="/images/xyz.jpg" person_url="/team/shweta" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/valentina">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/valentina.jpg" alt="Valentina Dainelli" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Valentina Dainelli</span>
-					<span class="block text-base italic">Social Media Specialist</span>
-				</div>
-			</a>
+			<Person name="Valentina Dainelli" intro="Social Media Specialist" image_url="/images/valentina.jpg" person_url="/team/valentina" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/raquel">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/xyz.jpg" alt="Raquel" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Raquel LastName</span>
-					<span class="block text-base italic">CEO of Yasmin</span>
-				</div>
-			</a>
+			<Person name="Raquel XYZ" intro="Sustainability & Corporate Social Responsibility" image_url="/images/xyz.jpg" person_url="/team/raquel" />
 
-			<a class="group relative w-[calc(100%/2-8px)] lg:w-[calc(100%/3-16px)] rounded-lg overflow-hidden h-96 bg-[#a59f78] transition-all" href="/team/zsuzsanna">
-				<div class="w-full after:block after:absolute after:w-full after:top-0 after:left-0 after:h-full after:bg-gradient-to-t after:from-[#a59f78]">
-					<img src="/images/zsuzsanna.jpg" alt="Zsuzsanna Zsidai" class="w-full h-full grayscale group-hover:grayscale-0 absolute top-0 right-0 left-0 bottom-0 object-cover" />
-				</div>
-				<div class="absolute bottom-0 w-full p-4 tracking-wide h-auto text-white">
-					<span class="text-2xl font-bold italic">Zsuzsanna Zsidai</span>
-					<span class="block text-base italic">Founder of Womazing.eu</span>
-				</div>
-			</a>
+			<Person name="Zsuzsanna Zsidai" intro="Founder of Womazing.eu" image_url="/images/zsuzsanna.jpg" person_url="/team/zsuzsanna" />
 		</div><!-- columns -->
 	</div>
 </article>

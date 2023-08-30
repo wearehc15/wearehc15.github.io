@@ -1,33 +1,53 @@
-<article class="py-14 md:py-16 lg:py-24">
-	<div class="px-4">
-		<h1 class="md:text-center text-6xl md:text-7xl lg:text-9xl tracking-wide text-cyan-950 mt-9 mb-4 lg:mt-16 lg:mb-11">Rita <span class="italic text-[#fca806]">Januário</span></h1>
-		<p class="md:text-center lg:text-xl text-slate-500 worksans uppercase tracking-wider">
-			About Rita
-		</p>
+<script>
+	import PersonDescription from "../../PersonDescription.svelte";
+	import PersonMeta from "../../PersonMeta.svelte";
+	import PersonProjects from "../../PersonProjects.svelte";
+	import PersonSkills from "../../PersonSkills.svelte";
+	import PersonStrength from "../../PersonStrength.svelte";
+	import PersonTitle from "../../PersonTitle.svelte";
+</script>
+<article class="pt-24 pb-9 lg:pb-16">
+	<div class="px-4 max-w-4xl mx-auto worksans text-sm">
+		<a href="/alliance#theteam"><i class="fa-light fa-arrow-left mr-2"></i>View the team</a>
+	</div>
 
-		<div class="max-w-4xl mx-auto md:text-center text-xl md:text-2xl lg:text-3xl">
-			<p class="my-4 md:my-6 lg:my-9 leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam dignissim diam quis. Accumsan lacus vel facilisis volutpat est velit egestas. Rhoncus dolor purus non enim praesent. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Nibh sed pulvinar proin gravida hendrerit lectus a. Dui faucibus in ornare quam viverra orci. Ac felis donec et odio. Sagittis vitae et leo duis ut diam quam nulla porttitor. Non sodales neque sodales ut etiam sit amet. Vel pharetra vel turpis nunc eget lorem dolor sed viverra. Vel pharetra vel turpis nunc eget lorem dolor sed. Non blandit massa enim nec dui nunc mattis.</p>
+	<PersonTitle
+		firstname="Rita"
+		lastname="Januário"
+		image_url="/images/rita.jpg" />
+
+	<div class="px-4 flex-col lg:flex-row flex gap-4 lg:gap-8 max-w-4xl mx-auto">
+
+		<PersonMeta
+			based_in="Portugal"
+			socials = { [
+				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/ritajanuario-98575b8a/' },
+			] }
+			/>
+
+		<div class="lg:w-2/3 text-xl md:text-2xl">
+			<PersonDescription>
+				<p>
+					Experienced and resilient business consultant and project manager with over 7 years' success in leading cross-functional teams, delivering innovative products and building creative marketing and communications initiatives. Empathetic leader with a strong track record of building positive team dynamics and fostering a collaborative working environment.
+				</p>
+			</PersonDescription>
+
+			<PersonStrength>
+				<p>
+					Go-to-Market and export strategies, Business development and International sales.
+				</p>
+			</PersonStrength>
 		</div>
 	</div>
 </article>
 
-<article class="py-14 md:py-16 lg:py-24 bg-[#817c52] overflow-x-hidden">
-	<div class="max-w-4xl mx-auto px-4">
-		<h1 class="md:text-center text-4xl md:text-6xl lg:text-7xl tracking-wide text-white mb-4 lg:mb-11">Skills & Expertise</h1>
-		<p class="md:text-center lg:text-xl text-slate-200 italic tracking-wide">
-			Projects I have participated in
-		</p>
-
-		<div class="flex gap-4 lg:gap-6 flex-wrap my-6 md:my-12 lg:my-16">
-			<div class="p-4 md:p-6 bg-[#a59f78] w-full rounded-md">
-				<h2 class="text-xl md:text-2xl mb-2">Project X</h2>
-				<p class="leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam dignissim diam quis. Accumsan lacus vel facilisis volutpat est velit egestas. Rhoncus dolor purus non enim praesent. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Nibh sed pulvinar proin gravida hendrerit lectus a. Dui faucibus in ornare quam viverra orci. Ac felis donec et odio. Sagittis vitae et leo duis ut diam quam nulla porttitor. Non sodales neque sodales ut etiam sit amet. Vel pharetra vel turpis nunc eget lorem dolor sed viverra.</p>
-			</div>
-
-			<div class="p-4 md:p-6 bg-[#a59f78] w-full rounded-md">
-				<h2 class="text-xl md:text-2xl mb-2">Project Y</h2>
-				<p class="leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam dignissim diam quis. Accumsan lacus vel facilisis volutpat est velit egestas. Rhoncus dolor purus non enim praesent. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Nibh sed pulvinar proin gravida hendrerit lectus a. Dui faucibus in ornare quam viverra orci. Ac felis donec et odio. Sagittis vitae et leo duis ut diam quam nulla porttitor. Non sodales neque sodales ut etiam sit amet. Vel pharetra vel turpis nunc eget lorem dolor sed viverra.</p>
-			</div>
-		</div><!-- columns -->
-	</div>
-</article>
+<PersonSkills
+	skills={
+		[
+			'Speaks: Portugese, Spanish, English',
+			'Business development',
+			'International sales',
+			'Building creative marketing & communications',
+		]
+	}
+	/>

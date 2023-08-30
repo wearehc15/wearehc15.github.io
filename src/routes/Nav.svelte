@@ -26,9 +26,9 @@
 				<i class="fa-sharp fa-regular fa-house-heart text-lg"></i>
 			</a>
 			<div class="bg-[#e9e9e1] lg:inline-block menunav__target">
-				<a on:click="{ () => closeMenu() }" href="/why" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide">Our Why</a>
-				<a on:click="{ () => closeMenu() }" href="/alliance" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide">Our Alliance</a>
-				<a on:click="{ () => closeMenu() }" href="/portfolio" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide">Our Portfolio</a>
+				<a on:click="{ () => closeMenu() }" href="/why" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0">Our Why</a>
+				<a on:click="{ () => closeMenu() }" href="/alliance" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0">Our Alliance</a>
+				<a on:click="{ () => closeMenu() }" href="/portfolio" class="border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0">Our Portfolio</a>
 			</div>
 			<button class="lg:hidden w-11 h-11 inline-block leading-[46px] text-center rounded-full bg-[#d6d6c2] float-right" on:click="{ () => handleClick() }">
 				<i class="fa-light fa-bars text-lg block mx-auto"></i>
