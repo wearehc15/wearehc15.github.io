@@ -21,9 +21,9 @@
 		<PersonMeta
 			based_in="Munich, Germany"
 			socials = { [
-				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/ivanasetiawan/' },
-				{ title: 'Venopi', url: 'https://www.venopi.com/' },
-				{ title: 'Personal website', url: 'https://ivanasetiawan.com/' },
+				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/jana-sieling-60a1a6204/' },
+				{ title: 'Instagram', url: 'https://www.instagram.com/finanzfriede/' },
+				{ title: 'Website', url: 'https://finanzfriede.de/zenfinance/' },
 			] }
 			/>
 
@@ -46,9 +46,14 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: German, English',
-			'Startup Finance',
-			'Personal Finance',
+			'Financial Industry',
+			'Business Consulting',
+			'Project Management',
+			'Personal Finances',
+			'Business Finance',
+			'Native German',
+			'Fluent English',
+			'Fluent Spanish',
 		]
 	}
 	/>
