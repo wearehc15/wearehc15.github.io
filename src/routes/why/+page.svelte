@@ -1,3 +1,7 @@
+<script>
+	import Alliance from "../Alliance.svelte";
+	import Faq from "../Faq.svelte";
+</script>
 <article class="py-14 md:py-16 lg:py-24">
 	<div class="max-w-4xl mx-auto px-4">
 		<h1 class="md:text-center text-6xl md:text-7xl lg:text-9xl tracking-wide text-cyan-950 mt-9 mb-4 lg:mt-16 lg:mb-11">Our <span class="italic text-[#fca806] -ml-9">Why</span></h1>
@@ -11,18 +15,13 @@
 			</p>
 
 			<p class="my-4 md:my-6 lg:my-9 leading-normal">Brought together by the EU Fellowship program The Break 2023. The experience was so impactful we decided to build and expand on the opportunity of our connections and build a creative business acceleration program based on that experience. Our mission is to support conscious entrepreneurs to accelerate their businesses in a joyful and healthy way.</p>
+			<p class="my-4 md:my-6 lg:my-9 leading-normal">
+				Learn more about our Co-Creation session <a href="/co-creation">here</a>.
+			</p>
 		</div>
 	</div>
 </article>
 
-<article class="py-14 md:py-16 lg:py-24 bg-[#e9e9e1] overflow-x-hidden">
-	<div class="max-w-4xl mx-auto px-4">
-		<h1 class="md:text-center text-4xl md:text-6xl lg:text-7xl tracking-wide mb-4 lg:mb-11">Our Alliance</h1>
+<Alliance />
 
-		<p class="md:text-center text-md md:text-xl lg:text-2xl !leading-normal">
-			The HC15 is a <strong class="italic">European-based alliance of 13 diverse and accomplished women entrepreneurs</strong> who came together with the shared goals of collaboration, empowerment and support.
-		</p>
-
-		<p class="mt-4 lg:mt-9 text-center"><a href="/alliance" class="button">Learn more</a></p>
-	</div>
-</article>
+<Faq />

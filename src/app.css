@@ -200,3 +200,7 @@ nav, footer, .worksans {
 		@apply invisible w-0 h-0;
 	}
 }
+
+.rotate-90 {
+	transform: rotate(90deg);
+}

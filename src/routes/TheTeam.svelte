@@ -32,7 +32,7 @@
 
 			<Person name="Valentina Dainelli" intro="Social Media Specialist" image_url="/images/valentina.jpg" person_url="/team/valentina" />
 
-			<Person name="Raquel XYZ" intro="Sustainability & Corporate Social Responsibility" image_url="/images/xyz.jpg" person_url="/team/raquel" />
+			<Person name="Raquel Sobral" intro="Sustainability & Corporate Social Responsibility" image_url="/images/raquel.jpg" person_url="/team/raquel" />
 
 			<Person name="Zsuzsanna Zsidai" intro="Founder of Womazing.eu" image_url="/images/zsuzsanna.jpg" person_url="/team/zsuzsanna" />
 		</div><!-- columns -->
