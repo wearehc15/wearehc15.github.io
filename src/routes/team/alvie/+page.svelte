@@ -1,7 +1,6 @@
 <script>
 	import PersonDescription from "../../PersonDescription.svelte";
 	import PersonMeta from "../../PersonMeta.svelte";
-	import PersonProjects from "../../PersonProjects.svelte";
 	import PersonSkills from "../../PersonSkills.svelte";
 	import PersonStrength from "../../PersonStrength.svelte";
 	import PersonTitle from "../../PersonTitle.svelte";
@@ -20,8 +19,10 @@
 
 		<PersonMeta
 			based_in="Kortrijk, Belgium"
+			email="info@alviebalayo.com"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/alvie-balayo/' },
+				{ title: 'Personal website', url: 'https://alviebalayo.com/' },
 			] }
 			/>
 
@@ -48,13 +49,13 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: English',
 			'Value proposition development',
 			'People management',
 			'Organisational development',
 			'Self-awareness and personal development',
 			'Facilitator',
-			'Vision navigation'
+			'Vision navigation',
+			'Native English',
 		]
 	}
 	/>

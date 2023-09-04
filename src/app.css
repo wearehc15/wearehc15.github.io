@@ -199,4 +199,4 @@ nav, footer, .worksans {
 	.menunav--expanded .fa-bars {
 		@apply invisible w-0 h-0;
 	}
-};
+}

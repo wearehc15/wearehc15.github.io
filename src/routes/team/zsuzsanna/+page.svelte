@@ -1,7 +1,6 @@
 <script>
 	import PersonDescription from "../../PersonDescription.svelte";
 	import PersonMeta from "../../PersonMeta.svelte";
-	import PersonProjects from "../../PersonProjects.svelte";
 	import PersonSkills from "../../PersonSkills.svelte";
 	import PersonStrength from "../../PersonStrength.svelte";
 	import PersonTitle from "../../PersonTitle.svelte";
@@ -20,6 +19,7 @@
 
 		<PersonMeta
 			based_in="Budapest, Hungary"
+			email="info@womazing.eu"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/zsidai-zsuzsanna-56350ba3/' },
 				{ title: 'Womazing', url: 'https://womazing.eu/' },
@@ -46,13 +46,16 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: Hungarian, English, Arabic, German',
 			'Intercultural communication',
 			'Research',
 			'Lecturing',
 			'Customer Service Management',
 			'Networking',
-			'Permaculture design (sustainability)'
+			'Permaculture design (sustainability)',
+			'Native Hungarian',
+			'Fluent English',
+			'Fluent Arabic',
+			'Fluent German'
 		]
 	}
 	/>

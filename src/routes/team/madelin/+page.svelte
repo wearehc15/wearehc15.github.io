@@ -20,6 +20,7 @@
 
 		<PersonMeta
 			based_in="Munich, Germany"
+			email="info@madelin-winkler.com"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/madelinwinkler/' },
 				{ title: 'Personal website', url: 'https://domega-consulting.com/' },
@@ -29,7 +30,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
-				<p>Madelin is a SEO & PR Expert and also helps entrepreneurs to explore the realm of digital nomadism. She has more then 8 years experience with CRM & ERP Systems. Madelin has a high class quality (strong) network in Munich, Barcelona and Lichtenstein.</p>
+				<p>Madelin is a digital marketing expert specializing in SEO and Google Ads. She also helps entrepreneurs explore the realm of digital nomadism. She has more than 8 years of experience with software systems (CRM&ERP) and focuses on more customer wins and better customer relationship. As a networking professional, she has been able to build an international customer base.</p>
 			</PersonDescription>
 
 			<PersonStrength>
@@ -44,15 +45,18 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: German, English, Spanish',
-			'Wordpress', 'ChatGPT Advanced',
+			'Wordpress',
+			'ChatGPT Advanced',
 			'Neuronwriter',
 			'SugarCRM',
 			'IBM',
 			'Salesforce',
 			'ERP Systems',
 			'Hubspot',
-			'Shore'
+			'Shore',
+			'Native German',
+			'Fluent English',
+			'Fluent Spanish'
 		]
 	}
 	/>

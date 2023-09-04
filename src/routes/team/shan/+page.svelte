@@ -19,7 +19,8 @@
 	<div class="px-4 flex-col lg:flex-row flex gap-4 lg:gap-8 max-w-4xl mx-auto">
 
 		<PersonMeta
-			based_in="Amsterdam, Netherlands"
+			based_in="Helsinki, Finland"
+			email="shan.luolin@eano.fi"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/shanluolin/' },
 				{ title: 'Wonders of U', url: 'https://www.wondersofu.com/' },
@@ -47,12 +48,14 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: Finnish, English, Mandarin',
 			'Value proposition development',
 			'Validation of the offer',
 			'Go-to-Market and export strategies',
 			'Finance and investment readiness',
-			'Chosen market knowledge and network'
+			'Chosen market knowledge and network',
+			'Native Finnish',
+			'Native Mandarin',
+			'Fluent English'
 		]
 	}
 	/>

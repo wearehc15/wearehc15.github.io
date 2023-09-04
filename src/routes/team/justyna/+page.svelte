@@ -20,27 +20,31 @@
 
 		<PersonMeta
 			based_in="Munich, Germany"
+			email="kawa.justyna@gmail.com"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/justyna-kawa/' },
+				{ title: 'Instagram', url: 'https://www.instagram.com/coffee.revival/' },
+				{ title: 'Peakava IG', url: 'https://www.instagram.com/peakava_/' },
 			] }
 			/>
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
-				<p>
-					With over 16 years of impactful leadership in the Fashion and Retail Industry, my expertise lies in brand and product development, strategic purchasing, and consulting. I've negotiated across diverse markets, driving profitability and strategic alignment. Additionally, my experience extends to consulting startups on business plans and strategies. My objectives are always clear: achieving targeted margins, sustainable profitability, and ensuring alignment with strategic goals.
+				<p class="mb-4 lg:mb-6">
+					With a rich history of 16+ years in influential leadership within the Fashion and Retail Industry, Justyna’s core competencies revolve around brand and product development, strategic procurement, and consultancy services. Her career has been marked by successful negotiations across a wide spectrum of markets, consistently delivering enhanced profitability and strategic cohesion.
 				</p>
+				<p>Moreover, she brings a wealth of experience in guiding startups through the intricacies of business planning and strategy development. Justyna’s unwavering focus is on achieving specific margin targets, fostering sustainable profitability, and aligning business strategies seamlessly with overarching strategic objectives</p>
 			</PersonDescription>
 
 			<PersonStrength>
 				<p>
-					Organisational development, Business development and international sales.
+					Business Plans, Business Development, Strategy Planning: brand, product, marketing, procurement, Negotiations, Brainstorming Sessions, Out-of-the box Solutions, VR and AR projects.
 				</p>
 			</PersonStrength>
 
 			<PersonProjects
 				projects = { [
-					{ title: 'Peakava', url: 'https://www.instagram.com/peakava_/' },
+					{ title: 'Peakava', url: 'http://www.peakava.pl' },
 				] }
 				/>
 		</div>
@@ -50,13 +54,16 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: Polish, English, German',
-			'Product development',
-			'Strategic purchasing',
-			'Negotiation',
-			'Business plan',
-			'Strategic alignment',
-			'Driving profitability',
+			'Brand Strategy',
+			'Business Plan',
+			'Team Management',
+			'Product Development',
+			'Sourcing',
+			'Strategic Purchasing',
+			'Negotitation',
+			'Native Polish',
+			'Fluent English',
+			'Advance German',
 		]
 	}
 	/>

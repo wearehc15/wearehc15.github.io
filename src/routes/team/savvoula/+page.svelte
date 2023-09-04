@@ -1,7 +1,6 @@
 <script>
 	import PersonDescription from "../../PersonDescription.svelte";
 	import PersonMeta from "../../PersonMeta.svelte";
-	import PersonProjects from "../../PersonProjects.svelte";
 	import PersonSkills from "../../PersonSkills.svelte";
 	import PersonStrength from "../../PersonStrength.svelte";
 	import PersonTitle from "../../PersonTitle.svelte";
@@ -20,9 +19,10 @@
 
 		<PersonMeta
 			based_in="Athens, Greece"
+			email="savvoula@huemaniser.com"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/savvoula-oikonomou/' },
-				{ title: 'Personal website', url: 'https://www.huemaniser.com/' },
+				{ title: 'Huemaniser', url: 'https://www.huemaniser.com/' },
 			] }
 			/>
 
@@ -45,10 +45,11 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: Greek, English',
 			'Fundraising',
 			'People management',
 			'Finance and investment readiness',
+			'Native Greek',
+			'Fluent English'
 		]
 	}
 	/>

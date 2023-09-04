@@ -20,6 +20,7 @@
 
 		<PersonMeta
 			based_in="Utrecht, Netherlands"
+			email="shweta.cu@gmail.com"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/srivastavshweta/' },
 			] }
@@ -27,9 +28,10 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
-				<p>
-					Shweta is an architect, researcher, educator and entrepreneur. She has 15+ years of experience in education and sustainability working across glocal scales and countries. She was co-lead for Erasmus funded Learning Networks for Sustainability for the India network. She works with education and organisations in the Netherlands and India on bringing futures, systems and design thinking, accelerating transitions to regenerative futures. She is also a lecturer for Global Project and Change Management at Windesheim University in the Netherlands and founding member of Living Cities Earth Network. She coordinated the UNESCO chair in culture, habitat and sustainable development and contributes to multiple glocal networks on systems innovation,transitions and sustainability.
+				<p class="mb-4 lg:mb-6">
+					Shweta is an architect, researcher, educator and entrepreneur. She has 15+ years of experience in education and sustainability working across glocal scales and countries. She was co-lead for Erasmus funded Learning Networks for Sustainability for the India network. She works with education and organisations in the Netherlands and India on bringing futures, systems and design thinking, accelerating transitions to regenerative futures.
 				</p>
+				<p>She is also a lecturer for Global Project and Change Management at Windesheim University in the Netherlands and founding member of Living Cities Earth Network. She coordinated the UNESCO chair in culture, habitat and sustainable development and contributes to multiple glocal networks on systems innovation,transitions and sustainability.</p>
 			</PersonDescription>
 
 			<PersonStrength>
@@ -44,10 +46,11 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: English, Hindi',
 			'Sustainability and Corporate Social Responsibility',
 			'Systems and design thinking for organisations',
 			'Capacity building for leading in uncertainty',
+			'Native Hindi',
+			'Fluent English'
 		]
 	}
 	/>

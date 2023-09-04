@@ -20,8 +20,11 @@
 
 		<PersonMeta
 			based_in="Poland"
+			email="katarzyna.bazylczyk@gmail.com"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/katarzynabazylczyk/' },
+				{ title: 'Instagram', url: 'https://www.instagram.com/venusand.co/' },
+				{ title: 'Venus & Co', url: 'https://venusand.com/' },
 			] }
 			/>
 
@@ -32,20 +35,27 @@
 
 			<PersonStrength>
 				<p>
-					UX Design, Product design, User testing.
+					Product Design (UX research, UX / UI design), Service Design, Design Management, Art Direction, Graphic design (Branding, Visual Communication, WayFinding, Print, Packaging), Industrial design (3D models)
 				</p>
 			</PersonStrength>
 		</div>
 	</div>
 </article>
-
 <PersonSkills
 	skills={
 		[
-			'Speaks: Polish, English, Spanish',
-			'Product design',
-			'User testing',
-			'UX Design',
+			'Product Design',
+			'Service Design',
+			'Art Direction',
+			'Graphic design',
+			'Adobe Cloud',
+			'Figma',
+			'Sketch',
+			'Axure RP',
+			'Rhinoceros 3D',
+			'Blender',
+			'WordPress',
+			'Spark AR'
 		]
 	}
 	/>

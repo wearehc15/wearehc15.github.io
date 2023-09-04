@@ -14,13 +14,13 @@
 
 			<Person name="Ivana Setiawan" intro="Founder & Software Engineer" image_url="/images/ivana.jpg" person_url="/team/ivana" />
 
-			<Person name="Jana Sieling" intro="Financial Consultant" image_url="/images/jana.jpg" person_url="/team/jana" />
+			<Person name="Jana Sieling" intro="Financial Consultant" image_url="/images/jana-1.jpg" person_url="/team/jana" />
 
-			<Person name="Justyna Kawa" intro="Fashion Strategist & Brand Creator" image_url="/images/justyna.jpg" person_url="/team/justyna" />
+			<Person name="Justyna Kawa" intro="Business and Strategy Consultant" image_url="/images/justyna.jpg" person_url="/team/justyna" />
 
 			<Person name="Katarzyna Bazylczyk" intro="Lead Product Designer" image_url="/images/kasia.jpg" person_url="/team/katarzyna" />
 
-			<Person name="Madelin Winkler" intro="Digital Nomad - SEO & PR" image_url="/images/madelin.jpg" person_url="/team/madelin" />
+			<Person name="Madelin Winkler" intro="Founder of Domega Consulting (Digital Marketing)" image_url="/images/madelin.jpg" person_url="/team/madelin" />
 
 			<Person name="Rita Januário" intro="Innovation Manager" image_url="/images/rita.jpg" person_url="/team/rita" />
 

@@ -1,7 +1,6 @@
 <script>
 	import PersonDescription from "../../PersonDescription.svelte";
 	import PersonMeta from "../../PersonMeta.svelte";
-	import PersonProjects from "../../PersonProjects.svelte";
 	import PersonSkills from "../../PersonSkills.svelte";
 	import PersonStrength from "../../PersonStrength.svelte";
 	import PersonTitle from "../../PersonTitle.svelte";
@@ -19,7 +18,8 @@
 	<div class="px-4 flex-col lg:flex-row flex gap-4 lg:gap-8 max-w-4xl mx-auto">
 
 		<PersonMeta
-			based_in="Portugal"
+			based_in="Coimbra, Portugal"
+			email="ritahjanuario@gmail.com"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/ritajanuario-98575b8a/' },
 			] }
@@ -28,17 +28,17 @@
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
 				<p class="mb-4 lg:mb-6">
-					Experienced and resilient business consultant and project manager with over 7 years' success in leading cross-functional teams, delivering innovative products and building creative marketing and communications initiatives.
+					Experienced and resilient business consultant and project manager with over 7 years' success in leading cross-functional teams, delivering innovative products and building creative marketing and communications initiatives. Empathetic leader with a strong track record of building positive team dynamics and fostering a collaborative working environment. Skilled at balancing project requirements within budget and exceeding expectations. Always looking for a challenge to drive growth and success through an innovative culture and strategy.
 				</p>
 
 				<p>
-					Empathetic leader with a strong track record of building positive team dynamics and fostering a collaborative working environment. Skilled at balancing project requirements within budget and exceeding expectations. Always looking for a challenge to drive growth and success through an innovative culture and strategy. Excellent communicator, empathetic, creative thinker, high risk taker, tenacious in solving problems.
+					Excellent communicator, empathetic, creative thinker, high risk taker, tenacious in solving problems.
 				</p>
 			</PersonDescription>
 
 			<PersonStrength>
 				<p>
-					Go-to-Market and export strategies, Business development and International sales.
+					Value proposition development, Go-to-Market strategies, Risk control, Happiness Management, Creative thinking, Communication strategies.
 				</p>
 			</PersonStrength>
 		</div>
@@ -48,10 +48,14 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: Portugese, Spanish, English',
+			'Design thinking',
 			'Business development',
-			'International sales',
-			'Building creative marketing & communications',
+			'Marketing and Communication',
+			'Project Management',
+			'Team management',
+			'Native Portugese',
+			'Fluent English',
+			'Fluent Spanish',
 		]
 	}
 	/>

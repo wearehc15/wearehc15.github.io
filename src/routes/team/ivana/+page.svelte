@@ -20,17 +20,18 @@
 
 		<PersonMeta
 			based_in="Amsterdam, Netherlands"
+			email="ivana@venopi.com"
 			socials = { [
 				{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/ivanasetiawan/' },
-				{ title: 'Venopi', url: 'https://www.venopi.com/' },
-				{ title: 'Personal website', url: 'https://ivanasetiawan.com/' },
+				{ title: 'Project: Venopi', url: 'https://www.venopi.com/' },
+				{ title: 'Personal website', url: 'https://ivanasetiawan.com/' }
 			] }
 			/>
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
 				<p>
-					I'm a self-taught Software Engineer since 2009, with a particular focus on front-end work. I love JavaScript, dabble in Python, and am enthusiastic about Web3 technology. I'm also keen on UX Design. Right now, I'm dedicated to my ongoing project, <a href="https://www.venopi.com/" target="_blank">Venopi</a>.
+					Ivana is a self-taught Software Engineer who has been coding since 2009, mainly in front-end development. They're enthusiastic about JavaScript, Python, and UX Design, and intrigued by the potential of Web3 technology.
 				</p>
 			</PersonDescription>
 
@@ -56,13 +57,19 @@
 <PersonSkills
 	skills={
 		[
-			'Speaks: Indonesian, English',
 			'Frontend tech stack',
+			'Javascript frameworks & libraries',
+			'React / Vue3 / Svelte',
+			'Nuxtjs / SvelteKit',
 			'Git',
 			'Tailwind',
-			'Javascript frameworks & libraries',
 			'Segment (Data driven)',
 			'UX Design',
+			'WordPress',
+			'Native Indonesian',
+			'Fluent English',
+			'Basic Dutch',
+			'Basic Swedish'
 		]
 	}
 	/>

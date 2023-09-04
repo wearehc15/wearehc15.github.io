@@ -1,5 +1,6 @@
 <script>
 	export let based_in = 'City, Country';
+	export let email = 'email';
 	export let socials = [
 		{ title: 'LinkedIn', url: 'https://www.linkedin.com/in/ivanasetiawan/' },
 		{ title: 'Venopi', url: 'https://www.venopi.com/' },
@@ -9,9 +10,15 @@
 
 <div class="w-full text-center lg:text-left lg:w-1/3 lg:h-64 relative">
 	<div class="text-base worksans my-4 md:my-6 lg:my-9">
-		<span class="mb-2 lg:mb-3 block text-slate-400">
+		<span class="mb-2 lg:mb-4 block text-slate-400">
 			<i class="fa-light fa-location-dot fa-lg mr-2"></i> { based_in }
 		</span>
+
+		{#if email }
+			<a class="mb-2 lg:mb-4 block text-slate-400" href="mailto:{ email }">
+				<i class="fa-light fa-at mr-2"></i> Email
+			</a>
+		{/if}
 
 		<ul>
 			{#each socials as social, index (social.title)}
