@@ -32,7 +32,7 @@
 					Throughout her career, Raquel has accumulated 15 years of experience in humanitarian aid, with both local and international work, focusing on volunteer projects and NGO development field work.
 				</p>
 				<p class="mb-4 lg:mb-6">
-					As someone with a long-standing commitment to community building and promoting social and environmental impact, in 2021, Raquel decided to take my passion to the next level and establish Yasmine - a brand that reflects these values. Her artisanal textile brand is founded on the principles of sustainability and corporate social responsibility.
+					As someone with a long-standing commitment to community building and promoting social and environmental impact, in 2021, Raquel decided to take her passion to the next level and establish Yasmine - a brand that reflects these values. Her artisanal textile brand is founded on the principles of sustainability and corporate social responsibility.
 				</p>
 				<p class="mb-4 lg:mb-6">
 					With a focus on artisanal work and deadstock materials, Raquel is committed to creating products that not only look beautiful but also have a real, tangible and positive impact in the world.
@@ -55,7 +55,7 @@
 			'Creative process',
 			'Circular economy',
 			'Textile printing',
-			'Textile dying',
+			'Textile dyeing',
 			'Native Portuguese',
 			'Fluent English',
 			'Fluent Spanish',
