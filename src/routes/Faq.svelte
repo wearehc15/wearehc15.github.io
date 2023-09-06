@@ -12,7 +12,7 @@
 					The synergy and our connection was remarkable and we took a step forward. A step not only towards our own dreams, but towards the dreams of countless others like us. We created a path to build, to expand, to grow - an opportunity for every entrepreneur.
 				</p>
 				<p class="mb-4 lg:mb-6">
-					From the echoes of <a href="https://the-break.eu/" target="_blank">The Break</a>, the HC15 Alliance was born.
+					From the echoes of <a href="https://the-break.eu/" target="_blank">The Break Fellowship</a>, the HC15 Alliance was born.
 				</p>
 				<p class="mb-4 lg:mb-6">
 					We stand here, not just as fempreneurs, but as guardians of possibility, architects of empowerment, and advocates of dreams. Each step forward is now a testament to the power of unity, the strength of collaboration, and the beauty of complementary business abilities. As we look ahead, we see many similar to us - growing in a sustainable, joyful way!
