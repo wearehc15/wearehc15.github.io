@@ -1,7 +1,6 @@
 <script>
 	import PersonDescription from "../../PersonDescription.svelte";
 	import PersonMeta from "../../PersonMeta.svelte";
-	import PersonProjects from "../../PersonProjects.svelte";
 	import PersonSkills from "../../PersonSkills.svelte";
 	import PersonStrength from "../../PersonStrength.svelte";
 	import PersonTitle from "../../PersonTitle.svelte";

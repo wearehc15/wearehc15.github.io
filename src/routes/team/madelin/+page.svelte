@@ -1,7 +1,6 @@
 <script>
 	import PersonDescription from "../../PersonDescription.svelte";
 	import PersonMeta from "../../PersonMeta.svelte";
-	import PersonProjects from "../../PersonProjects.svelte";
 	import PersonSkills from "../../PersonSkills.svelte";
 	import PersonStrength from "../../PersonStrength.svelte";
 	import PersonTitle from "../../PersonTitle.svelte";
@@ -30,6 +29,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Founder of Domega Consulting (Digital Marketing).</p>
 				<p>Madelin is a digital marketing expert specializing in SEO and Google Ads. She also helps entrepreneurs explore the realm of digital nomadism. She has more than 8 years of experience with software systems (CRM&ERP) and focuses on more customer wins and better customer relationship. As a networking professional, she has been able to build an international customer base.</p>
 			</PersonDescription>
 

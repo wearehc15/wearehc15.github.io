@@ -30,6 +30,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Business and Strategy Consultant.</p>
 				<p class="mb-4 lg:mb-6">
 					With a rich history of 16+ years in influential leadership within the Fashion and Retail Industry, Justyna’s core competencies revolve around brand and product development, strategic procurement, and consultancy services. Her career has been marked by successful negotiations across a wide spectrum of markets, consistently delivering enhanced profitability and strategic cohesion.
 				</p>

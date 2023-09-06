@@ -29,6 +29,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Financial Consultant.</p>
 				<p class="mb-4 lg:mb-6">
 					Jana is a finance consultant with over 8 years of experience in the banking sector in Germany. Her dedication to empowering women is evident through her mission-driven startup where she seeks to support female entrepreneurs to thrive financially. Jana combines personal and business finance knowledge from retirement plans to cash flow management. She loves sharing her knowledge to empower women in workshops and 1:1 mentoring sessions and is passionate about speaking in female networks to encourage the participants to talk about money.
 				</p>

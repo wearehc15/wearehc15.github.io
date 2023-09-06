@@ -28,6 +28,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Sustainability & Corporate Social Responsibility.</p>
 				<p class="mb-4 lg:mb-6">
 					Throughout her career, Raquel has accumulated 15 years of experience in humanitarian aid, with both local and international work, focusing on volunteer projects and NGO development field work.
 				</p>

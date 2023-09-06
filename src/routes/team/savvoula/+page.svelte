@@ -28,6 +28,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Institutional Fundraising & Consulting.</p>
 				<p>
 					Savvoula Oikonomou is a project manager with more than 10 years of experience in EU funded projects. She has worked in multiple international projects under Erasmus+, Europe for Citizens, AMIF, CERV, HORIZON either as a partner organization or as a coordinator. She speaks fluently English and is a certified PMP.
 				</p>

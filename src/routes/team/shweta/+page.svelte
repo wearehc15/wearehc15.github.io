@@ -1,7 +1,6 @@
 <script>
 	import PersonDescription from "../../PersonDescription.svelte";
 	import PersonMeta from "../../PersonMeta.svelte";
-	import PersonProjects from "../../PersonProjects.svelte";
 	import PersonSkills from "../../PersonSkills.svelte";
 	import PersonStrength from "../../PersonStrength.svelte";
 	import PersonTitle from "../../PersonTitle.svelte";
@@ -28,6 +27,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Design Research for Regeneration.</p>
 				<p class="mb-4 lg:mb-6">
 					Shweta is an architect, researcher, educator and entrepreneur. She has 15+ years of experience in education and sustainability working across glocal scales and countries. She was co-lead for Erasmus funded Learning Networks for Sustainability for the India network. She works with education and organisations in the Netherlands and India on bringing futures, systems and design thinking, accelerating transitions to regenerative futures.
 				</p>

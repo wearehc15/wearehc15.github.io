@@ -28,6 +28,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Vision Navigator & Consultant.</p>
 				<p class="mb-4 lg:mb-6">"In order to do anything, you must first see"- Alvie</p>
 				<p class="mb-4 lg:mb-6">
 					Alvie is a business professional with extensive international corporate experience. She is creative, adaptable, and efficient and has worked in several different industries in Australia, Europe, and North America. Her experience has her working with leadership to help identify or expand on vision, enhance, and build on existing strengths, and build cohesive teams.

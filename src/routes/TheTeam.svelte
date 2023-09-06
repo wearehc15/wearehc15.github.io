@@ -28,7 +28,7 @@
 
 			<Person name="Shan Luolin" intro="Managing Director at East by North Oy" image_url="/images/shan.jpg" person_url="/team/shan" />
 
-			<Person name="Shweta Srivastav" intro="Design Research for regeneration" image_url="/images/shweta.jpg" person_url="/team/shweta" />
+			<Person name="Shweta Srivastav" intro="Design Research for Regeneration" image_url="/images/shweta.jpg" person_url="/team/shweta" />
 
 			<Person name="Valentina Dainelli" intro="Social Media Specialist" image_url="/images/valentina.jpg" person_url="/team/valentina" />
 

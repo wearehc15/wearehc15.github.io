@@ -28,6 +28,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Founder of Womazing.eu.</p>
 				<p class="mb-4 lg:mb-6">
 					Zsuzsanna's academic journey has been fueled by a love for research that goes beyond the surface. She strongly believes that understanding the „why” and intercultural communication leave a positive imprint on our world. Having spent years in foreign countries, Zsuzsanna is passionate to connect people and empower women across cultures.
 				</p>

@@ -30,6 +30,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Founder & Software Engineer.</p>
 				<p>
 					Ivana is a self-taught Software Engineer who has been coding since 2009, mainly in front-end development. They're enthusiastic about JavaScript, Python, and UX Design, and intrigued by the potential of Web3 technology.
 				</p>

@@ -27,6 +27,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Innovation Manager.</p>
 				<p class="mb-4 lg:mb-6">
 					Experienced and resilient business consultant and project manager with over 7 years' success in leading cross-functional teams, delivering innovative products and building creative marketing and communications initiatives. Empathetic leader with a strong track record of building positive team dynamics and fostering a collaborative working environment. Skilled at balancing project requirements within budget and exceeding expectations. Always looking for a challenge to drive growth and success through an innovative culture and strategy.
 				</p>

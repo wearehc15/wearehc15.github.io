@@ -1,7 +1,6 @@
 <script>
 	import PersonDescription from "../../PersonDescription.svelte";
 	import PersonMeta from "../../PersonMeta.svelte";
-	import PersonProjects from "../../PersonProjects.svelte";
 	import PersonSkills from "../../PersonSkills.svelte";
 	import PersonStrength from "../../PersonStrength.svelte";
 	import PersonTitle from "../../PersonTitle.svelte";
@@ -29,6 +28,7 @@
 
 		<div class="lg:w-2/3 text-xl md:text-2xl">
 			<PersonDescription>
+				<p class="mb-4 lg:mb-6 text-gray-500 italic">Managing Director at East by North Oy.</p>
 				<p class="mb-4 lg:mb-6">
 					With over 12 years of experience guiding international projects, I offer extensive expertise in team and project management. With a decade of immersion in the food & beverage industry, I bring a seasoned perspective that blends seamlessly with my engagement in EU projects and management.
 				</p>
