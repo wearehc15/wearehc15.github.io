@@ -18,7 +18,7 @@
 
 			<Person name="Justyna Kawa" intro="Business and Strategy Consultant" image_url="/images/justyna.jpg" person_url="/team/justyna" />
 
-			<Person name="Katarzyna Bazylczyk" intro="Lead Product Designer" image_url="/images/kasia.jpg" person_url="/team/katarzyna" />
+			<Person name="Katarzyna Bazylczyk" intro="Product & experience designer. Creative." image_url="/images/kasia.jpg" person_url="/team/katarzyna" />
 
 			<Person name="Madelin Winkler" intro="Founder of Domega Consulting (Digital Marketing)" image_url="/images/madelin.jpg" person_url="/team/madelin" />
 
