@@ -12,8 +12,8 @@
 
 		<div class="md:text-center text-xl md:text-2xl lg:text-3xl">
 			<div class="md:text-center text-xl md:text-2xl lg:text-3xl">
-				<p class="my-4 md:my-6 lg:my-9 leading-normal">The HC15 Co-Creation program is a <strong class="italic">full-service business support experience</strong> for women entrepreneurs where we will address more than just “The Business”.</p>
-				<p class="my-4 md:my-6 lg:my-9 leading-normal">Our program consists of <strong class="italic">three facilitated sessions</strong> where we discover the core of your motivation, business and means to implement with Sinek's Golden Circle model as the basis. We then validate your idea and/or services, in order to provide you with a doable plan tailored upon to you and your business needs.</p>
+				<p class="my-4 md:my-6 lg:my-9 leading-normal">The HC15 Co-Creation program is a <strong class="italic">full-service business support experience</strong> for entrepreneurs where we will address more than just “The Business”.</p>
+				<p class="my-4 md:my-6 lg:my-9 leading-normal">Our program consists of <strong class="italic">three transformative stages</strong> where we discover the core of your motivation, business and means to implement with Sinek's Golden Circle model as the basis. We then validate your idea and/or services, in order to provide you with a doable plan tailored upon to you and your business needs.</p>
 			</div>
 		</div>
 	</div>
@@ -22,7 +22,7 @@
 
 <article class="py-14 md:py-16 lg:py-24 bg-[#e9e9e1] overflow-x-hidden text-cyan-950" id="threesessions">
 	<div class="max-w-6xl mx-auto px-4">
-		<h1 class="md:text-center text-4xl md:text-6xl lg:text-7xl tracking-wide mb-4 lg:mb-11">Three sessions</h1>
+		<h1 class="md:text-center text-4xl md:text-6xl lg:text-7xl tracking-wide mb-4 lg:mb-11">Three Stages of Coaching</h1>
 
 		<div class="my-6 md:my-12 lg:my-16 text-center text-md md:text-xl flex flex-col lg:flex-row gap-4 lg:gap-6 flex-wrap">
 			<div class="md:mx-auto md:w-1/2 group block relative lg:w-[calc(100%/3-16px)] rounded-lg bg-white p-4 md:p-6">
@@ -62,8 +62,9 @@
 		</div>
 
 		<p class="md:text-center text-md md:text-xl lg:text-2xl !leading-normal">
-			<strong class="italic">Each stage is led by experienced entrepreneurs</strong>. The collaborative process is a unique flow of interchanging experts that cover a range of areas. Co-Creation sessions are set up in stages depending on where the individual is in their business, this will depend on the application filled out by the individuals.
+			<strong class="italic">Each stage is led by experienced entrepreneurs</strong>. The program process is a unique flow of interchanging experts that cover a range of areas. Co-Creation sessions are set up in stages depending on where the individual is in their business, this will depend on the application filled out by the individuals.
 		</p>
+		<p class="md:text-center mt-4 md:pt-6 lg:mt-9"><a href="https://www.venopi.com/widget/co-creation-with-hc15-alliance/" class="button" target="_blank">Book Co-Creation</a></p>
 	</div>
 </article>
 
