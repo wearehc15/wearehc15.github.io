@@ -64,7 +64,7 @@
 		<p class="md:text-center text-md md:text-xl lg:text-2xl !leading-normal">
 			<strong class="italic">Each stage is led by experienced entrepreneurs</strong>. The program process is a unique flow of interchanging experts that cover a range of areas. Co-Creation sessions are set up in stages depending on where the individual is in their business, this will depend on the application filled out by the individuals.
 		</p>
-		<p class="md:text-center mt-4 md:pt-6 lg:mt-9"><a href="https://www.venopi.com/widget/co-creation-with-hc15-alliance/" class="button" target="_blank">Book Co-Creation</a></p>
+		<p class="md:text-center mt-4 md:pt-6 lg:mt-9"><a href="https://www.venopi.com/widget/co-creation-with-hc15-alliance/" class="button" target="_blank">Pricing & Booking</a></p>
 	</div>
 </article>
 
