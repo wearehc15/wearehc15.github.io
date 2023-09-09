@@ -33,7 +33,7 @@
 					Zsuzsanna's academic journey has been fueled by a love for research that goes beyond the surface. She strongly believes that understanding the „why” and intercultural communication leave a positive imprint on our world. Having spent years in foreign countries, Zsuzsanna is passionate to connect people and empower women across cultures.
 				</p>
 				<p class="mb-4 lg:mb-6">
-					With a background of customer service & event management, she has mastered the art of creating lasting connections in diverse cultures. For her, networking is much more than business; it is a medium for sharing values, fostering collaboration, and shaping a brigther furture together. For this reason, Zsuzsanna launched <a href="https://womazing.eu/" target="_blank">womazing.eu</a> where she is cultivating a network that amplifies women's stories, expertise and dreams to drive impactful change around us.
+					With a background of international project management, she has mastered the art of creating lasting connections in diverse cultures. For her, networking is much more than business; it is a medium for sharing values, fostering collaboration, and shaping a brigther furture together. For this reason, Zsuzsanna launched <a href="https://womazing.eu/" target="_blank">womazing.eu</a> where she is cultivating a network that amplifies women's stories, expertise and dreams to drive impactful change around us.
 				</p>
 			</PersonDescription>
 
