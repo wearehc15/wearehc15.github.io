@@ -18,7 +18,9 @@
 */
 
 @layer base {
-	html { margin-right: calc(100vw - 100%); }
+	html {
+		margin-right: calc(100vw - 100%);
+	}
 
 	html::-webkit-scrollbar {
 		width: 6px;
@@ -52,21 +54,32 @@
 		font-style: normal;
 		font-weight: 400;
 		font-display: swap;
-		src: url(https://fonts.gstatic.com/s/worksans/v18/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2) format('woff2');
-		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		src: url(https://fonts.gstatic.com/s/worksans/v18/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2)
+			format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+			U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,
+			U+FFFD;
 	}
 
-	h1, h2, h3, h4, h5, h6, h7, h8, h9, .is-abril {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	h7,
+	h8,
+	h9,
+	.is-abril {
 		font-family: Abril Fatface;
 	}
 
 	.content a {
-		@apply text-[#817c52] ;
+		@apply text-[#817c52];
 	}
 
 	.content a:hover {
 		@apply underline underline-offset-8 decoration-dotted;
-
 	}
 
 	*,
@@ -76,8 +89,9 @@
 	}
 }
 
-
-nav, footer, .worksans {
+nav,
+footer,
+.worksans {
 	font-family: 'Work Sans';
 }
 
@@ -97,11 +111,12 @@ nav, footer, .worksans {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-image: url("/images/bg7.jpg");
+	background-image: url('/images/bg7.jpg');
 	/* Add the blur effect */
 	filter: blur(4px);
 	-webkit-filter: blur(4px);
-	opacity: 0.44;
+	background-size: cover;
+	opacity: 0.8;
 }
 
 .cursor {
@@ -174,7 +189,7 @@ nav, footer, .worksans {
 @keyframes loaderAnim {
 	to {
 		opacity: 1;
-		transform: scale3d(0.5,0.5,1);
+		transform: scale3d(0.5, 0.5, 1);
 	}
 }
 
