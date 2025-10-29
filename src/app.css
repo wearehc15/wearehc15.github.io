@@ -98,6 +98,9 @@ nav, footer, .worksans {
 	top: 0;
 	left: 0;
 	background-image: url("/images/bg7.jpg");
+	/* Add the blur effect */
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
 	opacity: 0.44;
 }
 

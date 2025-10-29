@@ -9,6 +9,15 @@
   });
 </script>
 
+<svelte:head>
+	<title>HC15 Alliance</title>
+	<meta name="description" content="We are HC15 - a collaborative alliance of entrepreneurs" />
+	<meta
+		name="keywords"
+		content="HC15, HC15 Alliance, Entrepreneurs, Collaboration, Business Network, Innovation, Startups, Co-creation, European Entrepreneurs"
+	/>
+</svelte:head>
+
 <div class="flex flex-col min-h-screen">
 	<main>
     <div class="home-fx frame overflow-hidden bg-[#e9e9e1]">
