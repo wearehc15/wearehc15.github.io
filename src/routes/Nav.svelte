@@ -40,21 +40,21 @@
 				<a
 					on:click={() => closeMenu()}
 					class={path === '/why'
-						? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-[#817c52] after:left-0 after:-bottom-[1px] text-[#817c52]'
+						? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-[#817c52] after:left-0 after:-bottom-[1px] lg:after:-bottom-[13px] text-[#817c52]'
 						: 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0'}
 					href="/why">Our Why</a
 				>
 				<a
 					on:click={() => closeMenu()}
 					class={path === '/alliance'
-						? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-[#817c52] after:left-0 after:-bottom-[1px] text-[#817c52]'
+						? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-[#817c52] after:left-0 after:-bottom-[1px] lg:after:-bottom-[13px] text-[#817c52]'
 						: 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0'}
 					href="/alliance">Our Alliance</a
 				>
 				<a
 					on:click={() => closeMenu()}
 					class={path === '/co-creation'
-						? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-[#817c52] after:left-0 after:-bottom-[1px] text-[#817c52]'
+						? 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0 relative after:block after:absolute after:w-full after:h-1.5 after:bg-[#817c52] after:left-0 after:-bottom-[1px] lg:after:-bottom-[13px] text-[#817c52]'
 						: 'border-t border-[#d6d6c2] px-4 py-2 hover:text-[#817c52] uppercase tracking-wide lg:border-0'}
 					href="/co-creation">Co-creation</a
 				>
