@@ -5,6 +5,7 @@
 	import PersonSkills from '../../PersonSkills.svelte';
 	import PersonStrength from '../../PersonStrength.svelte';
 	import PersonTitle from '../../PersonTitle.svelte';
+	import ViewTeam from '../../ViewTeam.svelte';
 </script>
 
 <svelte:head>
@@ -22,10 +23,9 @@
 		content="Ivana Setiawan, Venopi, Software Engineer, Frontend Developer, Web3, JavaScript, Python, UX Design, Amsterdam, Netherlands"
 	/>
 </svelte:head>
+
 <article class="pt-24 pb-9 lg:pb-16">
-	<div class="px-4 max-w-4xl mx-auto worksans text-sm">
-		<a href="/alliance#theteam"><i class="fa-light fa-arrow-left mr-2" />View the team</a>
-	</div>
+	<ViewTeam />
 
 	<PersonTitle firstname="Ivana" lastname="Setiawan" image_url="/images/ivana.jpg" />
 
