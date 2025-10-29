@@ -1,6 +1,7 @@
 <script>
 	import Alliance from '../Alliance.svelte';
 	import Faq from '../Faq.svelte';
+	import Footer from '../Footer.svelte';
 </script>
 
 <svelte:head>
@@ -54,3 +55,5 @@
 <Alliance />
 
 <Faq />
+
+<Footer />

@@ -1,4 +1,6 @@
 <script>
+	import Footer from './Footer.svelte';
+
 	export let skills = [
 		'Speaks: Indonesian, English',
 		'Frontend tech stack',
@@ -6,7 +8,7 @@
 		'Tailwind',
 		'Javascript frameworks & libraries',
 		'Segment (Data driven)',
-		'UX Design',
+		'UX Design'
 	];
 </script>
 
@@ -19,12 +21,16 @@
 		<ul class="flex gap-4 flex-wrap mt-6 md:mt-12 lg:mt-16 worksans justify-center">
 			{#each skills as skill}
 				<li class="py-2 px-4 bg-[#a59f78] rounded-md">
-					{ skill }
+					{skill}
 				</li>
 			{/each}
 		</ul>
 		<div class="worksans text-sm text-center mt-6 md:mt-12 lg:mt-16">
-			<a href="/alliance#theteam" class="block !text-white worksans"><i class="fa-light fa-arrow-left mr-2"></i>View the team</a>
+			<a href="/alliance#theteam" class="block !text-white worksans"
+				><i class="fa-light fa-arrow-left mr-2" />View the team</a
+			>
 		</div>
 	</div>
 </article>
+
+<Footer />

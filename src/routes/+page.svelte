@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import HomeFx from '../extjs/homefx.js';
+	import Footer from './Footer.svelte';
 
 	onMount(() => {
 		if (location.pathname === '/') {
@@ -44,9 +45,8 @@
 			</div>
 		</div>
 	</main>
-	<footer class="fixed w-full text-center z-50 bottom-0 flex flex-col justify-center p-4">
-		<p class="text-sm text-slate-500">© {new Date().getFullYear()} HC15Alliance</p>
-	</footer>
+
+	<Footer />
 </div>
 
 <style>

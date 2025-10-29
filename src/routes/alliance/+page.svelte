@@ -1,5 +1,6 @@
 <script>
 	import TheTeam from '../TheTeam.svelte';
+	import Footer from '../Footer.svelte';
 </script>
 
 <svelte:head>
@@ -43,3 +44,5 @@
 </article>
 
 <TheTeam />
+
+<Footer />
